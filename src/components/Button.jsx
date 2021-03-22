@@ -6,7 +6,7 @@ const Button = ({ color, text, onClick }) => {
     <button
       onClick={onClick}
       className='btn'
-      tyle={{ backgroundColor: color }}
+      style={{ backgroundColor: color }}
     >
       {text}
     </button>
@@ -20,7 +20,7 @@ Button.defaultProps = {
 Button.propTypes = {
   text: PropTypes.string,
   color: PropTypes.string,
-  onClick: PropTypes.func.isRequired
+  onClick: PropTypes.func
 }
 
 export default Button
