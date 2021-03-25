@@ -1,22 +1,10 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Waking up!",
-      "day": "Everyday",
-      "reminder": true
-    },
-    {
-      "id": 3,
-      "text": "Make breakfast",
-      "day": "Everyday",
-      "reminder": true
-    },
-    {
-      "text": "Eat Shit",
-      "day": "Now",
+      "text": "Test",
+      "day": "Again",
       "reminder": true,
-      "id": 4
+      "id": 1
     }
   ]
 }
